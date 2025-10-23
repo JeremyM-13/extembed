@@ -1,0 +1,70 @@
+/* Stylesheet for external embedded CSS demo by Jeremy 2025 */
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+background-color: #321f4d;
+}
+
+.pagebox{
+width: 70%;
+margin: auto;
+background-color: #d6cae7;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+h1{
+font-size: 60px;
+color: #321f4d;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #fdf3bc;
+}
+
+li{
+float: left;
+}
+
+li a{
+display: block;
+color: #321f4d;
+text-align: center;
+padding: 14px;
+text-decoration:none;
+font-family: garamond, times new roman, serif;
+font-weight: bold;
+}
+
+li a:hover{
+background-color: #e8cd63; 
+}
+
+.active {
+background-color:#e8cd63;
+}
+
+.alignright{
+float: right;
+}
+
+h2 {
+color: #321f4d;
+}
+
+footer {
+text-align: center;
+font-style: italic;
+margin-top: auto;
+padding: 50px 0;
+}
